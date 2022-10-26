@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Yellowtail&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    max-width: 100%;
+}
+
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+ul li{
+    display: inline-block;
+}
+ul li a{
+    color: #fff;
+    padding-left: 2rem;
+    font-size: 1rem;
+    text-decoration: none;
+}
+ul li a:hover{
+    color: rgba(7, 0, 0, 0.922);
+    text-decoration: none;
+}
+.top-bg{
+    background-color: #f8880f;
+} 
+.header-top{
+    padding:5px 2px;
+}
+body{
+    font-family: poppins,sans-serif;
+    font-weight: 25rem;
+    font-style:normal;
+}
+.search-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.search-box input {
+    width: 25vw;
+    height: 3em;
+    border-radius: 2em;
+    border-style: none;
+    padding: 1em;
+    font-size: 0.8vw;
+    margin-bottom: 1rem;
+}
+.search-box input::placeholder{
+    font-size: 0.9vw;
+}
+.search-box i {
+    position: relative;
+    left: -2.0em;
+    width: 0.2vw;
+    height: 2.2em;
+    top: 0.25vw;
+    cursor: pointer;
+}
+
+
+@media screen and (min-width:460px) and (max-width:989px) {
+    .search-box input {
+        height: 5em;
+        width:33vw;
+    }
+    .search-box input::placeholder{
+        font-size: 1.9vw;
+    }
+    .header-top{
+        margin-bottom: 5px;
+    }
+}
+
+
+
+/* Header Bottom */
+
+.submenu{
+    display:none;
+}
+a{
+    color:#63565c;
+}
+.f-right{
+    float:right;
+}
+.header-bottom .main-menu ul li a{
+    color:black;
+    font-size: 1rem;
+    display: inline-block;
+    padding:42px 18px;
+}
+.header-bottom .header-right i{
+    width:50px;
+    height:50px;
+    line-height:50px;
+    text-align:center;
+    border-radius:50%;
+    border: 1px solid #eee;
+    color:#4e4e4e;
+    font-size:19px;
+    cursor: pointer;
+}
+.btn {
+    background: #f8880f;
+     color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    line-height: 0;
+    margin-bottom: 0;
+    padding: 27px 35px;
+    border-radius: 25px;
+    margin: 10px;
+    position:relative;
+}
+.btn:hover{
+    background-color: #eee;
+    color:#f8880f;
+}
+
+
+@media only screen and (min-width:400px) and (max-width:576px) {
+    .header-bottom .main-menu ul li a {
+        padding: 20px 15px;
+        display:grid;
+    }
+}
+
+@media (min-width:1200px) and (max-width:1400px) {
+    .header-bottom .main-menu ul li a {
+        padding: 39px 13px;
+    }
+} 
+.header-bottom .main-menu ul li:hover>a {
+    color: #ff003c;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+    color:#fff;
+}
+.container{
+    padding-bottom: 30px;
+}

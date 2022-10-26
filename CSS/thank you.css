@@ -1,0 +1,263 @@
+.outline {
+    width: 30vw;
+    height: 40vw;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.59);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.outline img {
+    align-self: center;
+    margin-bottom: 1em;
+}
+
+.outline img:first-child {
+    width: auto;
+    height: 7vw;
+}
+
+.outline h2 {
+    font-size: 2.5vw;
+    font-weight: bolder;
+    font-family: Verdana;
+}
+
+.subheading {
+    color: white;
+    font-weight: bold;
+    background-color: #FD6E00;
+    font-size: 1.2vw;
+    padding: 0.2em 1.7em;
+    margin-top: -0.4em;
+
+}
+
+.coupon {
+    font-weight: bold;
+    margin-top: 1em;
+    font-size: 1.5vw;
+}
+
+.coupon-img {
+    margin-top: 2em;
+}
+
+.outline .coupon-img {
+    width: auto;
+    height: 9.3vw;
+}
+
+.outline small {
+    font-size: 1vw;
+}
+
+@media screen and (min-width:576px) and (max-width:768px) {
+    .outline {
+        width: 55vw;
+        height: 70vw;
+    }
+
+    .outline img {
+        align-self: center;
+        margin-bottom: 1em;
+    }
+
+    .outline img:first-child {
+        width: auto;
+        height: 13vw;
+    }
+
+    .outline h2 {
+        font-size: 4vw;
+        font-weight: bolder;
+        font-family: Verdana;
+    }
+
+    .subheading {
+        color: white;
+        background-color: #FD6E00;
+        font-size: 2vw;
+        padding: 0.2em 1.7em;
+        margin-top: -0.4em;
+
+    }
+
+    .coupon {
+        font-weight: bold;
+        margin-top: 1em;
+        font-size: 2vw;
+    }
+
+    .coupon-img {
+        margin-top: 2em;
+    }
+
+    .outline .coupon-img {
+        width: auto;
+        height: 15vw;
+    }
+
+    .outline small {
+        font-size: 1.8vw;
+    }
+}
+
+ @media screen and (min-width:460px) and (max-width:575px) {
+    .outline {
+        width: 65vw;
+        height: 80vw;
+    }
+
+    .outline img {
+        align-self: center;
+        margin-bottom: 1em;
+    }
+
+    .outline img:first-child {
+        width: auto;
+        height: 14vw;
+    }
+
+    .outline h2 {
+        font-size: 4vw;
+        font-weight: bolder;
+        font-family: Verdana;
+    }
+
+    .subheading {
+        color: white;
+        background-color: #FD6E00;
+        font-size: 2.5vw;
+        padding: 0.2em 1.7em;
+        margin-top: -0.4em;
+
+    }
+
+    .coupon {
+        font-weight: bold;
+        margin-top: 1em;
+        font-size: 2.5vw;
+    }
+
+    .coupon-img {
+        margin-top: 2em;
+    }
+
+    .outline .coupon-img {
+        width: auto;
+        height: 17vw;
+    }
+
+    .outline small {
+        font-size: 2.2vw;
+    }
+}
+
+@media screen and (min-width:375px) and (max-width:459px) {
+    .outline {
+        width: 75vw;
+        height: 95vw;
+    }
+
+    .outline img {
+        align-self: center;
+        margin-bottom: 1.5em;
+    }
+
+    .outline img:first-child {
+        width: auto;
+        height: 16vw;
+    }
+
+    .outline h2 {
+        font-size: 5vw;
+        font-weight: bolder;
+        font-family: Verdana;
+    }
+
+    .subheading {
+        color: white;
+        background-color: #FD6E00;
+        font-size: 3vw;
+        padding: 0.2em 1.7em;
+        margin-top: -0.4em;
+
+    }
+
+    .coupon {
+        font-weight: bold;
+        margin-top: 1em;
+        font-size: 3vw;
+    }
+
+    .coupon-img {
+        margin-top: 2em;
+    }
+
+    .outline .coupon-img {
+        width: auto;
+        height: 20vw;
+    }
+
+    .outline small {
+        font-size: 2.6vw;
+    }
+}
+
+ @media screen and (max-width:375px) {
+    .outline {
+        width: 85vw;
+        height: 120vw;
+    }
+
+    .outline img {
+        align-self: center;
+        margin-bottom: 1.5em;
+    }
+
+    .outline img:first-child {
+        width: auto;
+        height: 18vw;
+    }
+
+    .outline h2 {
+        font-size: 6vw;
+        font-weight: bolder;
+        font-family: Verdana;
+    }
+
+    .subheading {
+        color: white;
+        background-color: #FD6E00;
+        font-size: 3.5vw;
+        padding: 0.2em 1.7em;
+        margin-top: -0.4em;
+
+    }
+
+    .coupon {
+        font-weight: bold;
+        margin-top: 1em;
+        font-size: 3.5vw;
+    }
+
+    .coupon-img {
+        margin-top: 2em;
+    }
+
+    .outline .coupon-img {
+        width: auto;
+        height: 24vw;
+    }
+
+    .outline small {
+        font-size: 3vw;
+    }
+}
